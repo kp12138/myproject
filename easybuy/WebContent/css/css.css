@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+*{ padding:0; margin:0;}
+ul,li{ list-style:none;}
+body{ font-size:20px; color:#000; background: url(../img/bodybg1.jpg) repeat-x;}
+a{ text-decoration:none;}
+
+.nav{ width:930px; height:33px; overflow:hidden; background: url(../img/nav_bg.jpg) repeat-x; border-bottom:4px solid #CCC; padding-left:30px;}
+.nav2{ width:930px; height:53px; overflow:hidden; background: url(../img/nav_bg.jpg) ; border-bottom:4px solid #CCC; padding-left:30px;}
+.nav li{ float:left; padding-right:22px; height:33px; line-height:33px;}
+
+.nav li a{ color:#fff; font-size:14px; text-decoration:none;}
+.nav li a:hover{ text-decoration:underline;}
+
+
+
+
+.header{ position:relative; width:1080px; margin:0px auto;}
+.about{ position:absolute; left:306px; top:21px;}
+
+
+
+
+
+.search_box {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	-webkit-box-shadow: inset -4px 4px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset -4px 4px 5px rgba(0,0,0,0.1);
+	box-shadow: inset -4px 4px 5px rgba(0, 0, 0, 0.1);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+	position: relative;
+	float: left;
+
+}
+.search_box form input[type="text"] {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 0.8125em;
+	color: #ACACAC;
+	width: 405px;
+	height:34px;
+	padding: 6px;
+	-webkit-apperance: none;
+}
+.search_box form input[type="submit"] {
+	border: none;
+	cursor: pointer;
+	background: url(../images/search.png) no-repeat 0px 3px;
+	position: absolute;
+	right: 25;
+	width: 25px;
+	height:25px;
+	outline: none;
+}
+
+
+
+.content{ width:960px; padding-top:1px;}
+
+.index_content{ overflow:hidden; margin:10px 0px 10px 10px; }
+.index_content_left,.index_content_right{ float:left;}
+.index_content_left{ width:590px;}
+.index_content_right{ width:350px;}
+
+
+
+
+
+
+
+.container {
+	WIDTH: 350px;
+	HEIGHT: 220px
+}
+.container A IMG {
+	WIDTH: 350px;
+	HEIGHT: 220px
+}
+.container IMG {
+	BORDER-BOTTOM-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-TOP-STYLE: none;
+	BORDER-LEFT-STYLE: none
+}
+.td_f A IMG {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+.num {
+	POSITION: absolute;
+	WIDTH: 90px;
+	FLOAT: right;
+	TOP: 190px;
+	LEFT: 240px
+}
+.num LI {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 15px;
+	LIST-STYLE-TYPE: none;
+	MARGIN: 1px;
+	WIDTH: 15px;
+	FONT-FAMILY: Arial;
+	BACKGROUND: url(../img/flashbutton.gif) no-repeat -15px 0px;
+	FLOAT: left;
+	HEIGHT: 15px;
+	COLOR: #86a2b8;
+	FONT-SIZE: 12px;
+	CURSOR: pointer
+}
+.num LI.on {
+	LINE-HEIGHT: 15px;
+	WIDTH: 15px;
+	BACKGROUND: url(../img/flashbutton.gif) no-repeat;
+	HEIGHT: 15px;
+	COLOR: #ffffff
+}
+
+
+
+
+
+
